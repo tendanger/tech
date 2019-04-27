@@ -30,4 +30,4 @@ Lat_B=39.9064024197; Lng_B=116.3624819407 # 北京分部
 distance=calcDistance(Lat_A,Lng_A,Lat_B,Lng_B)
 print('(Lat_A, Lng_A)=({0:10.3f},{1:10.3f})'.format(Lat_A,Lng_A))
 print('(Lat_B, Lng_B)=({0:10.3f},{1:10.3f})'.format(Lat_B,Lng_B))
-print('Distance={0:10.3f} km'.format(distance))
+print('Distance={0:10.10f} km'.format(distance))
